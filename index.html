@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100&family=Vollkorn:ital,wght@1,500&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>Homepage</title>
+</head>
+
+<body>
+    <header class="primary-header flex">
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="logo" width="200">
+        </div>
+        <button id="navButton" class="mobile-nav-toggle" aria-controls="primary-nav" aria-expanded="false">
+            <span class="sr-only "></span>
+        </button>
+        <nav id="navBar">
+            <ul id="primary-nav" class="primary-nav flex" data-visible="false">
+                <li class="active">
+                    <a href="index.html">
+                        <span aria-hidden="true">00</span> Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#about">
+                        <span aria-hidden="true">01</span> About
+                    </a>
+                </li>
+                <li>
+                    <a href="#ThetaChi">
+                        <span aria-hidden="true">02</span> Theta Chi
+                    </a>
+                </li>
+                <li>
+                    <a href="#projects">
+                        <span aria-hidden="true">03</span> Projects
+                    </a>
+                </li>
+                <li>
+                    <a href="#References">
+                        <span aria-hidden="true">03</span> References
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="section first">
+            <div class="firstContent1">
+                <h1>Hi, I'm Abiel Yemane</h1>
+            </div>
+            <div class="firstImage1">
+                <img src="assets/images/IMG_3185.JPG" alt="Abiel Yemane" width="200">
+            </div>
+            <div class="firstContent2">
+                <img class="firstImage2" src="assets/images/rit-logo.png" alt="RIT Logo" width="200">
+                <p>I'm a student at the Rochester Institue of Technology studying Computing and Information Technology. Welcome to my personal Website! </p>
+            </div>
+            <div>
+
+            </div>
+        </section>
+        <section id="about" class="section second">
+            <div class="secondContent1">
+                <h1>Academics</h1>
+            </div>
+
+            <div class="secondContent2">
+                <img class="secondImage1" src="assets/images/csec-buidling.jpeg" alt="Gollisano Building" width="300">
+                <p>I'm currently a sophomore studying Computing and Information Technology. Throughout my RIT curriculum, I have grasped new skills in languages and technologies such as Java, JavaScript, HTML5, CSS3, Python, Bash, and Linux. I am currently
+                    looking for a Summer/2022 Co-Op/Internship. If my skills align with the needs of your company please contact me.
+                </p>
+
+            </div>
+        </section>
+
+        <section id="ThetaChi" class="section third">
+            <div class="thirdContent1">
+                <h1>Theta Chi</h1>
+            </div>
+            <div class="thirdImage1">
+
+                <img src="assets/images/IMG_3324.JPG" alt="Group photo">
+            </div>
+            <div class="thirdContent2">
+                <img class="thirdImage2" src="assets/images/theta-chi.png" alt="Theta Chi Crest">
+                <p>I'm a member of Theta Chi, the best Fraternity at RIT. We are a group of well rounded young men who are ambitious and motivated to become leaders on campus, in the community, and in our careers. We are committed to developing lifelong
+                    friendships, excelling in academics and athletics, giving back to the Rochester community, and improving Greek Life at RIT. We strive everyday to better ourselves, our brothers, and especially our communities.</p>
+            </div>
+            <div class="thirdContent3">
+                <h1>Bleacher Bash</h1>
+            </div>
+            <div class="thirdContent4">
+                <img class="thirdImage3" src="assets/images/bleacher-bash.jpeg" alt="Bleacher Bash flyer">
+                <p>Bleacher Bash is our main charity event held annually for the USO. This year we partnered up with RIT Athletics to host the event and we raffled off two Jack Harlow tickets where the raffle proceeds benefit the USO.</p>
+            </div>
+            <div class="thirdVideo1">
+                <video src="assets/videos/bleacher-bash.mov" controls></video>
+            </div>
+            <div class="thirdContent5">
+                <h1>Conquer The Campus</h1>
+            </div>
+            <div class="thirdContent6">
+                <img class="thirdImage4" src="assets/images/conquer-the-campus.jpg" alt="Conquer the campus poster">
+                <p>Conquer the Campus is a school-wide game of capture the flag that is hosted by Theta Chi and the ASA sorority. The event is held annually and took place for the first time this fall semester. Conquer the Campus was the idea of our previous
+                    events coordinator Jamison Friauf (image left) who wanted to create a charity event that would bring the greater RIT community together. The cost to sign up for this event was five dollars which would be donated to the Center for Youth.
+                    Conquer the Campus has two teams, Greeks and Romans and participants would get to choose what team they played for.</p>
+            </div>
+        </section>
+        <section id="projects" class="section fourth">
+            <div class="fourthContent1">
+                <h1>Application Performance Monitoring Tool</h1>
+            </div>
+            <div class="fourthContent2">
+                <img class="fourthImage1" src="assets/images/APM.png" alt="" width="300">
+                <p>This was a team project that was assigned in my class, Task Automation and Interpretive Languages. We wrote an APM tool in Bash that will monitor a mix of processes in the form of executable programs written in C. The script will start
+                    the processes, collect performance metrics, and perform a clean-up at the end to kill these processes.
+                </p>
+            </div>
+            <div class="fourthContent3">
+                <h1>
+                    Packet Capture Analysis Tool
+                </h1>
+            </div>
+            <div class="fourthContent4">
+                <img class="fourthImage2" src="assets/images/Packet-Capture.png" alt="" width="300">
+                <p>The purpose of this project is to create a Packet Capture Analysis (PCA) tool that computes metrics from these packet captures that could be used in decision making. Packet capture analysis allows network engineers, system administrators,
+                    and security analysts to quantify network performance and analyze network traffic using packet captures on various components in the network. Packet capture analysis may result in outcomes such as introducing additional network components
+                    for load balancing, new routes/paths through the network, or spinning up further analysis for confirming networking breaches.
+                </p>
+            </div>
+        </section>
+        <section id="References" class="section fifth">
+            <div class="fifthContent1">
+                <h1>References</h1>
+            </div>
+            <div class="fifthContent2">
+                <p>How to Create a Sticky NavBar. (2021). W3Schools. </br>https://www.w3schools.com/howto/howto_js_navbar_sticky.asp</p>
+                <p>RIT Logo. (2021). [Illustration]. </br>https://en.wikipedia.org/wiki/Rochester_Institute_of_Technology_Croatia</p>
+                <p>CSEC Building. (2021). [Photo]. Rit.Edu. </br>https://www.rit.edu/computing/immerse-yourself/national-leader-cybersecurity</p>
+                <p>Bleacher Bash. (2020, August 18). [Video]. YouTube. </br>https://www.youtube.com/watch?v=tn46uc_ElUI</p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
